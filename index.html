@@ -12,6 +12,13 @@
   --black:#0f172a;--gray-dark:#334155;--gray-mid:#64748b;--gray-light:#f8fafc;
   --white:#ffffff;--border:#e2e8f0
 }
+.profile-photo{
+  width:132px;
+  height:132px;
+  border-radius:50%;
+  object-fit:cover;
+  border:3px solid rgba(255,255,255,0.18);
+}
 body{font-family:system-ui,-apple-system,sans-serif;color:var(--black);background:var(--white);font-size:15px;line-height:1.7;overflow-x:hidden}
 a{text-decoration:none;color:inherit}
 nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--border);padding:0 5%;display:flex;justify-content:space-between;align-items:center;height:60px}
@@ -129,7 +136,7 @@ section{padding:5rem 0;border-top:1px solid var(--border)}
   </div>
   <div class="hero-right">
     <div class="profile-wrap">
-      <div class="profile-photo">Add<br>Your Photo</div>
+      <img src="profile.jpg" alt="Aditya Bhogte" class="profile-photo">
     </div>
     <div class="hero-stat">
       <div class="hero-stat-label">Currently</div>
